@@ -31,6 +31,10 @@ packagingOptions {
 }
 第五步：
 导入依赖
+在root build.gradle中添加
+classpath 'com.hujiang.aspectjx:gradle-android-plugin-aspectjx:2.0.8'
+在使用matrix sdk的module中的build.gradle中添加
+apply plugin: 'android-aspectjx'
 implementation 'com.github.zhuyidian:lib_Matrix:V1.0.0'
 ```
 
