@@ -17,3 +17,7 @@ matrix {
     }
 } 
 ```
+* 3，版本问题
+```xml
+app的 minSdkVersion 最低需要21
+```
