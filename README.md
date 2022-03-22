@@ -21,3 +21,12 @@ matrix {
 ```xml
 app的 minSdkVersion 最低需要21
 ```
+```xml
+在app的build.gradle中的android闭包中添加
+packagingOptions {
+    pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+    pickFirst 'lib/arm64-v8a/libc++_shared.so'
+    pickFirst 'lib/armeabi-v7a/libwechatbacktrace.so'
+    pickFirst 'lib/arm64-v8a/libwechatbacktrace.so'
+}
+```
