@@ -1,0 +1,16 @@
+# Matrix
+/Matrix/.gradle/
+/Matrix/.idea/
+/Matrix/.svn/
+/Matrix/java_pid5600.hprof   
+/Matrix/java_pid8156.hprof 
+/Matrix/*.hprof 
+/Matrix/*.iml
+
+#app
+/Matrix/app/build/
+/Matrix/app/*.iml
+
+#matrix
+/Matrix/matrix/build/
+/Matrix/matrix/*.iml
