@@ -53,3 +53,9 @@ app的 minSdkVersion 最低需要21
 会在app的build/outputs/mapping目录中生成
 methodMapping.txt和ignoreMethodMapping.txt文件
 ```
+
+## 2.版本管理
+* 1，V1.0.0 
+```xml
+首次编译成功
+```
