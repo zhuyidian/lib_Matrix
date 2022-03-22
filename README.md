@@ -43,3 +43,9 @@ app的 minSdkVersion 最低需要21
 ```xml
 需要集成或者使用 MatrixApplication
 ```
+
+* 4，生成分析文件
+```xml
+会在app的build/outputs/mapping目录中生成
+methodMapping.txt和ignoreMethodMapping.txt文件
+```
